@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    html {
+        font-family: 'Edu NSW ACT Foundation', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Kumbh Sans', sans-serif;
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        font-family: 'Playpen_Sans', cursive;
+        font-family: 'Poppins', sans-serif;
+    }
+    h1{
+        -webkit-text-stroke : 0.1vw #000; 
+    }
+}

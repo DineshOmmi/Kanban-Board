@@ -434,6 +434,19 @@ video {
   display: none;
 }
 
+html {
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  font-family: 'Fasthand', cursive;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Playpen_Sans', cursive;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1{
+  -webkit-text-stroke : 0.1vw #000;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -534,18 +547,65 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.h-screen {
-  height: 100vh;
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.flex {
+  display: flex;
 }
 
 .h-full {
   height: 100%;
 }
 
-.w-screen {
-  width: 100vw;
+.h-screen {
+  height: 100vh;
 }
 
 .w-full {
   width: 100%;
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.font-\[\'Playpen_Sans\'\] {
+  font-family: 'Playpen Sans';
+}
+
+.text-8xl {
+  font-size: 6rem;
+  line-height: 1;
+}
+
+.font-thin {
+  font-weight: 100;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
